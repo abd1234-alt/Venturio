@@ -1,0 +1,23 @@
+.transform {
+    background: url(../img/bubble.jpg);
+    background-size: cover;
+    /* background-color: #EEEEEE; */
+    height: 100vh;
+    padding: 8rem;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.transform .transform-heading {
+    font-size: 6rem;
+}
+
+.transform p {
+    font-size: 2.5rem;
+    /* width: 70rem; */
+}
+
+.transform-btn, .transform p {
+    margin: 0 auto;
+}

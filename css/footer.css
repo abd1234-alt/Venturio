@@ -1,0 +1,70 @@
+footer {
+    background-color: #08512B;
+    color: #fff;
+    padding: 8rem;
+}
+
+.inner-footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10rem;
+}
+
+.logo-cont, .input {
+    margin-block-end: 3rem;
+}
+
+.footer-logo {
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.venturio-footer p {
+    font-size: 1.8rem;
+    line-height: 1.3;
+}
+
+footer .footer-input {
+    background-color: #ffffff;
+    padding: 1.3rem 4rem;
+}
+
+footer .footer-span {
+    transform: translate(-4rem, 1.5rem);
+    background-color: #08512B;
+}
+
+.icons {
+    font-size: 3rem;
+    gap: 2rem;
+}
+
+.icons i {
+    background-color: #ffffff3f;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.footer-info ul li a{
+    color: #fff;
+}
+
+.footer-info {
+    font-size: 1.6rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+}
+
+.footer-info ul {
+    list-style: none;
+    flex-direction: column;
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-info ul li:first-child {
+    font-weight: 600;
+}

@@ -1,0 +1,191 @@
+.home {
+    margin-block-end: 7rem;
+    /* background-color: red; */
+    height: 65rem;
+}
+
+header {
+    background-color: #fff;
+    justify-content: space-between;
+    font-weight: 600;
+    padding: .7rem 3rem;
+    width: 90vw;
+    border-radius: 0rem 5rem 0rem 5rem;
+    margin: 4rem auto 0rem auto;
+    box-shadow: .1rem .1rem 1rem .1rem #0000004e;
+    animation: header 0.7s 1;
+    cursor: pointer;
+    position: fixed;
+    left: 5%;
+    z-index: 1000;
+}
+
+@keyframes header {
+    0% {
+        transform: translate(0rem, -20rem);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateY(0rem);
+        opacity: 1;
+    }
+}
+
+nav ul, .login p {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    gap: 3rem;
+}
+
+ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav ul li a, .login p {
+    transition: all .6s ease-in-out;
+}
+
+nav ul li a:hover, .login p:hover {
+    color: #08512B;
+    font-size: 1.7rem;
+}
+
+.login {
+    gap: 3rem;
+}
+
+header .home-btn {
+    background-color: #08512B;
+    color: white;
+    margin-block-start: 0rem;
+}
+
+header .home-btn:hover {
+    background-color: #01190d;
+}
+
+header .primary-button span {
+    background-color: white;
+    color: #000000;
+}
+
+.home-grid-layout {
+    width: 100%;
+    height: 117.5vh;
+    /* background-color: red; */
+    /* position: relative; */
+    z-index: -1000;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    position: absolute;
+    z-index: -1;
+    transform: translateY(-20rem);
+}
+
+.home-grid-1 {
+    background-color: #F3F5ED;
+    padding: 3rem;
+    opacity: 0;
+    animation: home-grid-1 0.7s 1s forwards 1;
+}
+
+@keyframes home-grid-1 {
+    0% {
+        transform: translate(0rem, 50rem);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateY(0rem);
+        opacity: 1;
+    }
+}
+
+.home-grid-content-1 {
+    margin-inline-start: 7rem;
+}
+
+.home-grid-1 h3 {
+    margin-block: 33.5rem 2rem;
+    font-size: 5rem;
+    line-height: 1.1;
+    font-weight: 600;
+    font-family: "Lexend", sans-serif;
+}
+
+.home-grid-1 p {
+    font-size: 1.5rem;
+    color: #686962;
+    margin-block-end: 2rem;
+}
+
+.home-grid-1 .grid-button-1 {
+    margin-block-end: 7rem;
+    cursor: pointer;
+}
+
+.home-grid-1 .learn:hover {
+    background-color: red;
+}
+
+.home-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 40rem;
+    margin-inline-start: 3rem;
+}
+
+.info h1 {
+    font-size: 3rem;
+}
+
+.info::before {
+    content: "";
+    background: linear-gradient(#E9F039, #E9F039, #eaf03962, #eaf03900);
+    height: 6rem;
+    width: .8rem;
+    position: absolute;
+    transform: translateX(-2.5rem);
+}
+
+.home-grid-2 img {
+    overflow: hidden;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.home-grid-2 {
+    overflow: hidden;
+    animation: home-grid-2 .7s 1s forwards 1;
+    opacity: 0;
+}
+
+@keyframes home-grid-2 {
+    0% {
+        transform: translateY(-10rem);
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
